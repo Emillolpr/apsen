@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+::after {
+  -moz-box-align: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+::after {
+  outline: none;
+}
+
+a:focus,
+a::after {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  list-style: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+template {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+@media only screen and (min-device-width: 640px) {
+  body {
+    background: #ffffff;
+  }
+  .img-2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+  }
+  .img-1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+  }
+  .link {
+    text-align: center;
+    margin: 10%;
+  }
+  .link-2,
+.link-3,
+.link-4,
+.link-5,
+.link-6 {
+    font-size: 25px;
+    color: black;
+  }
+  .nav, .nav-1 {
+    font-size: 17px;
+    margin: 50px;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 35px;
+  }
+  .img-3 {
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+  }
+  .img-4 {
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+  }
+}
+@media only screen and (max-device-width: 640px) {
+  body {
+    background-color: rgb(3, 3, 3);
+  }
+  .heading-1 {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 30px;
+  }
+  .img-2 {
+    width: 50%;
+    height: 50%;
+    border-radius: 20%;
+  }
+  .img-1 {
+    text-align: center;
+    margin: 40px;
+  }
+  .link {
+    text-align: center;
+    margin: 10%;
+  }
+  ul,
+.link-2,
+.link-3,
+.link-4,
+.link-5,
+.link-6 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .nav, .nav-1 {
+    font-size: 17px;
+    color: #ffffff;
+    margin: 20%;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 20px;
+  }
+  .img-3 {
+    text-align: center;
+    margin: 40px;
+  }
+  .img-4 {
+    width: 70%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 30px;
+  }
+}
